@@ -1,0 +1,68 @@
+/* static/css/style.css */
+
+body {
+    background-color: #121212; /* Dark background */
+    color: #eee; /* Light text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    background-color: #1e1e1e; /* Dark card background */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+    margin-top: 50px;
+}
+
+.card-header h1 {
+    color: #f39c12; /* A nice orange color for heading */
+    font-weight: 700;
+}
+
+label {
+    font-weight: 600;
+    color: #ddd;
+}
+
+select.form-control, input.form-control {
+    background-color: #333;
+    color: #eee;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+select.form-control:focus, input.form-control:focus {
+    background-color: #444;
+    border-color: #f39c12;
+    color: #fff;
+    box-shadow: 0 0 8px #f39c12;
+    outline: none;
+}
+
+.btn-primary {
+    background-color: #f39c12;
+    border-color: #f39c12;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #d48806;
+    border-color: #d48806;
+}
+
+#prediction {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #f39c12;
+    font-weight: 700;
+}
+
+h5 {
+    color: #ccc;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin: 20px;
+    }
+}
